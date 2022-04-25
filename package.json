@@ -1,0 +1,32 @@
+{
+  "name": "@icetang0123/ephemeral",
+  "version": "0.0.2",
+  "description": "백업과 복구를 도와주는 간편한 툴",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ephemeral": "bin/ephemeral.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backup"
+  ],
+  "author": "Icetang0123",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gooddltmdqls/ephemeral.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gooddltmdqls/ephemeral/issues"
+  },
+  "homepage": "https://github.com/gooddltmdqls/ephemeral#readme"
+}
